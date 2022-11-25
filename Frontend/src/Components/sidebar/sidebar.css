@@ -1,0 +1,68 @@
+.sidebarc{
+flex: 2 ;
+ margin: 20px;
+ border-radius: 10px;
+ display: flex;
+ background-color: #fbfdfd;
+ padding-bottom: 30px;
+ flex-direction: column;
+ align-items: center;
+
+}
+.sidebaritem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Varela', sans-serif;
+}
+
+
+.sidebartitle{
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid #a7a4a4;
+    border-bottom: 1px solid #a7a4a4;
+    font-size: 20px;
+    color: #222;
+    font-family: 'Calistoga', cursive;
+    font-weight: 600px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.aboutmep{
+    margin-top: 15px;
+    width: 90%;
+    height: 80%;
+}
+
+.sidebarc > p{
+    padding: 35px;
+}
+
+.sidebarList{
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.sidebarlistitem{
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.sidebarsocials{
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;     
+}
+
+.sidebaricon{
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
